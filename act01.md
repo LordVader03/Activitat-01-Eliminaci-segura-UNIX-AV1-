@@ -115,10 +115,14 @@ capaç de compilar, executar, testejar amb el fitxer test.sh i instal·lar l’e
 
 ### Resposta
 rmsf: rmsf.o
+	
 	gcc -o rmsf rmsf.o
 rmsf.o: rmsf.c
+
 	gcc -c rmsf.c
 clean:
+
 	del rmsf rmsf.o
 install:
+	
 	su root -c "cp rmsf /usr/bin"
