@@ -88,7 +88,7 @@ Primer introduim la següent comanda:
 
 su root -c "cp rmsf /usr/bin"
 
-en la que s'ha de posar su root per a crear la comanda, -c perque es de tipus c, després usem rmsf perque és el nom de l'arxiu i /usr/bin, perqué es on es troba l'arxiu.
+En la que s'ha de posar su root per a crear la comanda, -c perque es de tipus c, després usem rmsf perque és el nom de l'arxiu i /usr/bin, perqué es on es troba l'arxiu.
 
 Després ens demanarà la contrasenya i la possem i ens deixarà creada la comanda.
 
@@ -100,9 +100,13 @@ la vostra solució.
 
 ### Resposta
 cd usr/bin
+
 vi rmsf.c
+
 gcc rmsf.c -g -c rmsf.c -o rmsf
+
 mkdir hola
+
 rmsf hola
 
 ## 4 Part pràctica: Automatització amb Make
